@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DEBUG	main.cpp	7;"	d	file:
+LEN_HALF_SRC	main.cpp	/^const int LEN_HALF_SRC= LEN_SRC\/2;$/;"	v
+LEN_KEY	main.cpp	/^const int LEN_KEY= 64;$/;"	v
+LEN_KEY_FINAL	main.cpp	/^const int LEN_KEY_FINAL= 48;$/;"	v
+LEN_SRC	main.cpp	/^const int LEN_SRC= 64;$/;"	v
+LEN_TABLE_E	main.cpp	/^const int LEN_TABLE_E= 48;$/;"	v
+LEN_TABLE_IP	main.cpp	/^const int LEN_TABLE_IP= LEN_SRC;$/;"	v
+LEN_TABLE_P	main.cpp	/^const int LEN_TABLE_P= 32;$/;"	v
+LEN_TABLE_PC1	main.cpp	/^const int LEN_TABLE_PC1= 56;$/;"	v
+LEN_TABLE_PC2	main.cpp	/^const int LEN_TABLE_PC2= LEN_KEY_FINAL;$/;"	v
+LEN_TABLE_S_COL	main.cpp	/^const int LEN_TABLE_S_ROW= 4, LEN_TABLE_S_COL= 16;$/;"	v
+LEN_TABLE_S_ROW	main.cpp	/^const int LEN_TABLE_S_ROW= 4, LEN_TABLE_S_COL= 16;$/;"	v
+NUM_SUB_KEY	main.cpp	/^const int NUM_SUB_KEY= 16;$/;"	v
+NUM_TABLE_S	main.cpp	/^const int NUM_TABLE_S= 8;$/;"	v
+TABLE_E	main.cpp	/^const int TABLE_E[]= {32,  1,  2,  3,  4,  5,$/;"	v
+TABLE_IP	main.cpp	/^const int TABLE_IP[]= {58, 50, 42, 34, 26, 18, 10 ,2,$/;"	v
+TABLE_IP_CONVERSE	main.cpp	/^const int TABLE_IP_CONVERSE[]=$/;"	v
+TABLE_P	main.cpp	/^const int TABLE_P[]={16, 7,20,21,$/;"	v
+TABLE_PC1	main.cpp	/^const int TABLE_PC1[]= {57, 49, 41, 33, 25, 17, 9,$/;"	v
+TABLE_PC2	main.cpp	/^const int TABLE_PC2[]= {14, 17, 11, 24,  1,  5,$/;"	v
+TABLE_S	main.cpp	/^const int TABLE_S[NUM_TABLE_S][LEN_TABLE_S_ROW][LEN_TABLE_S_COL]= {$/;"	v
+bitscat	util.cpp	/^void bitscat(bool* des, bool* src, int n, int len_src){$/;"	f
+bitscpy	util.cpp	/^void bitscpy(bool* src, bool* des, int start, int len){$/;"	f
+f_func	main.cpp	/^void f_func(bool* r, bool* key){$/;"	f
+get_bits_from_bitstr	util.cpp	/^void get_bits_from_bitstr(const char* str, bool* des, int len){$/;"	f
+iteration	main.cpp	/^void iteration(bool* l, bool* r, bool* k){$/;"	f
+leftshift	util.cpp	/^void leftshift(bool* src, bool* des, int len, int n){$/;"	f
+main	main.cpp	/^int main(){$/;"	f
+num_left_shift	main.cpp	/^int num_left_shift[NUM_SUB_KEY]= {1,1,2,2,2,2,2,2,1,2,2,2,2,2,2,1};$/;"	v
+permutation	util.cpp	/^void permutation(bool *src, bool* des, const int* table, int len){$/;"	f
+permutation_converse	util.cpp	/^void permutation_converse(bool *src, bool* des, const int* table, int len){$/;"	f
+print_bits	util.cpp	/^void print_bits(bool* bits, int len){$/;"	f
+s_box	main.cpp	/^int s_box(bool* src, int s_num, int index){$/;"	f
+s_data_src	main.cpp	/^const char *s_data_src= "0000""0001""0010""0011""0100""0101""0110""0111""1000""1001""1010""1011""1100""1101""1110""1111";$/;"	v
+s_key_src	main.cpp	/^const char* s_key_src= "00010011""00110100""01010111""01111001""10011011""10111100""11011111""11110001";$/;"	v
